@@ -27,7 +27,7 @@ class _LoginScreenState extends State<LoginScreen> {
           padding: EdgeInsets.symmetric(horizontal: 24.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
+            // crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               Flexible(
                 child: Hero(
@@ -67,7 +67,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               RoundedButton(
                 title: 'Log In',
-                colour: Colors.lightBlueAccent,
+                colour: Colors.black87,
                 onPressed: () async {
                   setState(() {
                     showSpinner = true;

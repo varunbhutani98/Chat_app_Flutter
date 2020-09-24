@@ -45,7 +45,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
         padding: EdgeInsets.symmetric(horizontal: 24.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.stretch,
+          // crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Row(
               children: <Widget>[
@@ -70,14 +70,14 @@ class _WelcomeScreenState extends State<WelcomeScreen>
             ),
             RoundedButton(
               title: 'Log In',
-              colour: Colors.lightBlueAccent,
+              colour: Colors.black87,
               onPressed: () {
                 Navigator.pushNamed(context, LoginScreen.id);
               },
             ),
             RoundedButton(
               title: 'Register',
-              colour: Colors.blueAccent,
+              colour: Colors.black87,
               onPressed: () {
                 Navigator.pushNamed(context, RegistrationScreen.id);
               },

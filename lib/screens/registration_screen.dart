@@ -27,7 +27,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
           padding: EdgeInsets.symmetric(horizontal: 24.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
+            // crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               Flexible(
                 child: Hero(
@@ -67,7 +67,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
               ),
               RoundedButton(
                 title: 'Register',
-                colour: Colors.blueAccent,
+                colour: Colors.black87,
                 onPressed: () async {
                   setState(() {
                     showSpinner = true;
