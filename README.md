@@ -2,7 +2,7 @@
 Simple group chat app , we can login and sign up user, all the user msg will store in firestore
 
 
-# What will will create
+# What we will create
 We’re going to build a modern messaging app where users can sign up and log in to chat.
 
 ![Finished App](https://github.com/londonappbrewery/Images/blob/master/flash_chat_flutter_demo.gif)
